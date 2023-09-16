@@ -15,5 +15,33 @@
                 margin-top: 20px;
             }
         }
+
+        .right {
+            height: 100%;
+            max-height: 65.4rem;
+            width: 100%;
+            max-width: 42.6rem;
+            background-image: url('../img/ticket-bg.png');
+            
+            .logo {
+                margin: 4rem auto;
+            }
+
+            .ticket-event {
+                padding: 0 3rem;
+                margin-bottom: 3rem;
+            }
+
+            .event-info {
+                padding: 0 3rem;
+                margin-bottom: 15px;
+            }
+            
+            .data {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
     }
 }
