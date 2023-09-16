@@ -17,6 +17,7 @@
         }
 
         .right {
+            position: relative;
             height: 100%;
             max-height: 65.4rem;
             width: 100%;
@@ -41,6 +42,26 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+            }
+
+            .qr-code {
+                position: absolute;
+                bottom: 2rem;
+                left: 50%;
+                transform: translateX(-50%);
+
+
+                p {
+                    width: 17.8rem;
+                    text-align: center;
+                    margin-top: 0.5rem;
+                    font-size: 1rem;
+
+                    .wpp-link {
+                        font-weight: 700;
+                        color: $text;
+                    }
+                }
             }
         }
     }
