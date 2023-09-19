@@ -64,5 +64,47 @@
                 }
             }
         }
+
+        @media(max-width: 991px) {
+            flex-direction: column;
+            gap: 4rem;
+            .left {
+                margin-top: 4rem;
+            }
+        }
+        @media (max-width: 580px) {
+            .left {
+                margin-top: 4rem;
+                img {
+                    width: 90%;
+                    margin: 0 auto;
+                }
+                p {
+                    font-size: 1.6rem;
+                }
+            }
+            .right {
+                max-width: 35rem;
+                background-image: url('../img/ticket-bg-mobile.png');
+                background-repeat: no-repeat;
+                background-position: top center;
+
+                .logo {
+                    margin: 2rem auto;
+                }
+                .ticket-event {
+                    margin-bottom: 2rem;
+                }
+                .qr-code {
+                    width: 12rem;
+                    height: 12rem;
+                    bottom: 20.5rem;
+                    p {
+                        width: 12rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
     }
 }

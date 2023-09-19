@@ -61,6 +61,11 @@ p {
   font-size: 1.8rem;
   font-weight: 500;
 }
+@media (max-width: 580px) {
+  .s-hero .container .right h2 {
+    font-size: 2rem;
+  }
+}
 
 .s-hero {
   width: 100%;
@@ -117,4 +122,46 @@ p {
 .s-hero .container .right .qr-code p .wpp-link {
   font-weight: 700;
   color: #121212;
+}
+@media (max-width: 991px) {
+  .s-hero .container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .s-hero .container .left {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 580px) {
+  .s-hero .container .left {
+    margin-top: 4rem;
+  }
+  .s-hero .container .left img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .s-hero .container .left p {
+    font-size: 1.6rem;
+  }
+  .s-hero .container .right {
+    max-width: 35rem;
+    background-image: url("../img/ticket-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .s-hero .container .right .logo {
+    margin: 2rem auto;
+  }
+  .s-hero .container .right .ticket-event {
+    margin-bottom: 2rem;
+  }
+  .s-hero .container .right .qr-code {
+    width: 12rem;
+    height: 12rem;
+    bottom: 20.5rem;
+  }
+  .s-hero .container .right .qr-code p {
+    width: 12rem;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */

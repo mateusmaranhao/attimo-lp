@@ -22,5 +22,13 @@ p {
                 font-weight: 500;
             }
         }
+
+        @media(max-width: 580px) {
+            .right {
+                h2 {
+                    font-size: 2rem;
+                }
+            }
+        }
     }
 }
