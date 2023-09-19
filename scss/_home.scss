@@ -105,7 +105,7 @@
                     height: 12rem;
                     bottom: 18rem;
                     p {
-                        width: 12rem;
+                        width: 100vw;
                         text-align: center;
                     }
                 }
@@ -116,10 +116,6 @@
                 .qr-code {
                     height: auto;
                     bottom: 18rem;
-                    p {
-
-                        width: 15rem;
-                    }
                 }
             }
         }

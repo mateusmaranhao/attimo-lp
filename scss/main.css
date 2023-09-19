@@ -165,7 +165,7 @@ p {
     bottom: 18rem;
   }
   .s-hero .container .right .qr-code p {
-    width: 12rem;
+    width: 100vw;
     text-align: center;
   }
 }
@@ -173,8 +173,5 @@ p {
   .s-hero .container .right .qr-code {
     height: auto;
     bottom: 18rem;
-  }
-  .s-hero .container .right .qr-code p {
-    width: 15rem;
   }
 }/*# sourceMappingURL=main.css.map */
