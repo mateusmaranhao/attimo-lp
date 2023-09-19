@@ -169,7 +169,7 @@ p {
     text-align: center;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 500px) {
   .s-hero .container .right .qr-code {
     height: auto;
     bottom: 18rem;
