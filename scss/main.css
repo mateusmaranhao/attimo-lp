@@ -169,9 +169,9 @@ p {
     text-align: center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 390px) {
   .s-hero .container .right .qr-code {
     height: auto;
-    bottom: 18rem;
+    bottom: 19rem;
   }
 }/*# sourceMappingURL=main.css.map */
