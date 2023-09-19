@@ -96,9 +96,14 @@
                     margin-bottom: 2rem;
                 }
                 .qr-code {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
                     width: 12rem;
                     height: 12rem;
-                    bottom: 20.5rem;
+                    bottom: 18rem;
                     p {
                         width: 12rem;
                         text-align: center;
@@ -109,10 +114,7 @@
         @media (max-width: 390px) {
             .right {
                 .qr-code {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
+     
 
                     bottom: 2rem;
                     p {
