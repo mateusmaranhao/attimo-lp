@@ -171,7 +171,8 @@ p {
 }
 @media (max-width: 390px) {
   .s-hero .container .right .qr-code {
-    bottom: 2rem;
+    height: auto;
+    bottom: 18rem;
   }
   .s-hero .container .right .qr-code p {
     width: 15rem;
